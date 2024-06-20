@@ -2,9 +2,9 @@
 # 1) PDF to Dataset in Chunks
 This project demonstrates how to load a PDF document, split its content into manageable chunks, and save these chunks into a Chroma vector store using embeddings. The code uses the langchain library for handling the PDF and text processing, and supports both HuggingFace and OpenAI embeddings.
 
-Prerequisites
+- Prerequisites
 Python 3.7+,
- Required Python packages:
+- Required Python packages:
 langchain, 
 PyPDFLoader, 
 RecursiveCharacterTextSplitter, 
